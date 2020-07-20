@@ -1,3 +1,16 @@
+@media  (max-width: 991px)
+    .promo
+        padding: 21px 20px 93px 20px
+
+    .advantages
+        padding: 67px 20px 80px 20px
+        &__item
+            padding: 0 10px 0 10px
+
+    .consultation
+        padding: 100px 20px 92px 20px
+    
+    
 @media  (max-width: 767px)
     .header
         padding-top: 20px
@@ -65,8 +78,51 @@
             align-items: center
 
         &__item
+            padding: 0 10px 0 10px
             width: 80%
             margin-bottom: 50px
 
             span
                 margin: 10px 0 10px 0
+
+
+    .consultation
+        min-height: 500px
+        padding: 60px 0
+        background: url('../img/consultation/consultation_mobile_bg.jpeg') center (center / cover) no-repeat
+        .feed-form
+            width: 60%
+            margin: 0 auto
+            margin-top: 36px
+            input
+                text-align: center
+        .title_left
+            text-align: center
+            font-size: 25px
+            br
+                display: none
+        &__descr
+            text-align: center
+            font-size: 17px
+            margin-top: 20px
+
+@media  (max-width: 575px)
+    
+    .consultation
+        padding: 60px 20px
+        min-height: 400px
+        .feed-form
+            width: 80%
+            margin: 0 auto
+            margin-top: 36px
+            input
+                text-align: left
+        .title_left
+            text-align: center
+            font-size: 25px
+            br
+                display: none
+        &__descr
+            text-align: center
+            font-size: 17px
+            margin-top: 20px
